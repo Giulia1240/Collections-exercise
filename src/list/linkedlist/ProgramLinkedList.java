@@ -65,7 +65,8 @@ public class ProgramLinkedList {
                 listFive.linkedFive();
                 break;
             default:
-                System.out.println("Opção inválida");
+                System.out.println("option invalidated");
+                break;
         }
     }
 }
