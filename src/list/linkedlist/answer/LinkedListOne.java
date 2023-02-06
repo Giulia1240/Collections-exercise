@@ -1,4 +1,4 @@
-package list.linkedlist;
+package list.linkedlist.answer;
 
 import java.util.Iterator;
 

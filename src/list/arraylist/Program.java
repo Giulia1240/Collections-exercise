@@ -1,5 +1,7 @@
 package list.arraylist;
 
+import list.arraylist.answer.*;
+
 import java.util.Scanner;
 
 public class Program {
@@ -30,12 +32,12 @@ public class Program {
      */
         Scanner sc = new Scanner(System.in);
 
-        ArraysListProgram arraysLists = new ArraysListProgram();
-        IteratorArray iteratorArray = new IteratorArray();
-        ModArray modOne = new ModArray();
-        ModArrayTwo modTwo = new ModArrayTwo();
-        ModArrayThree modThree = new ModArrayThree();
-        ModArrayFor modFor = new ModArrayFor();
+        ArraysListOne arraysLists = new ArraysListOne();
+        ArrayListTwo arrayListTwo = new ArrayListTwo();
+        ArrayListThree modOne = new ArrayListThree();
+        ArrayListSix modTwo = new ArrayListSix();
+        ArrayListFive modThree = new ArrayListFive();
+        ArrayListFour modFor = new ArrayListFour();
 
 
         System.out.println("Choose the desired option: ");
@@ -53,7 +55,7 @@ public class Program {
                 arraysLists.arrayListProgramElements();
                 break;
             case 2:
-                iteratorArray.iteratorArraysElements();
+                arrayListTwo.iteratorArraysElements();
                 break;
             case 3:
                 modOne.modifyingArrayElements();

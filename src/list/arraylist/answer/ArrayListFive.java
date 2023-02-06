@@ -1,8 +1,8 @@
-package list.arraylist;
+package list.arraylist.answer;
 
 import java.util.*;
 
-public class ModArrayThree {
+public class ArrayListFive {
     public void modifyingArrayElementsThree() {
 
 //        11. Write a Java program to reverse elements in a array list. Go to the editor

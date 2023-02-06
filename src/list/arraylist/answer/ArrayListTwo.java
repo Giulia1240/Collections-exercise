@@ -1,8 +1,8 @@
-package list.arraylist;
+package list.arraylist.answer;
 
 import java.util.*;
 
-public class IteratorArray {
+public class ArrayListTwo {
     public void iteratorArraysElements() {
 //        2.Write a Java program to iterate through all elements  in a array list.
 

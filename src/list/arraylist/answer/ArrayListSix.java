@@ -1,8 +1,8 @@
-package list.arraylist;
+package list.arraylist.answer;
 
 import java.util.*;
 
-public class ModArrayTwo {
+public class ArrayListSix {
     public void modifyingArrayElementsTwo() {
 //        7. Write a Java program to search an element in a array list. Go to the editor
 //        8. Write a Java program to sort a given array list. Go to the editor

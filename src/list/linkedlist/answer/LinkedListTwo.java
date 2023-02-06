@@ -1,6 +1,4 @@
-package list.linkedlist;
-
-import java.util.Iterator;
+package list.linkedlist.answer;
 
 public class LinkedListTwo {
 
@@ -14,19 +12,18 @@ public class LinkedListTwo {
         linkTwo.add("Verde");
         System.out.println(linkTwo);
 
-
-        System.out.println("");
-        System.out.println("insert elements into the linkTwoed list at the first and last position");
+        System.out.println();
+        System.out.println("insert elements into the linked list at the first and last position");
         linkTwo.addFirst("GREEN");
         linkTwo.addLast("Violet");
         System.out.println(linkTwo);
 
-        System.out.println("");
+        System.out.println();
         System.out.println("insert the specified element at the front of a linkedList list");
         linkTwo.offerFirst("PINK");
         System.out.println(linkTwo);
 
-        System.out.println("");
+        System.out.println();
         System.out.println("insert the specified element at the end of a linked list");
         linkB.add("Rosa");
         linkB.add("Amarelo");
@@ -35,10 +32,12 @@ public class LinkedListTwo {
         linkTwo.addAll(linkB);
         System.out.println(linkTwo);
 
-        System.out.println("");
-        System.out.println("get the first and last occurrence of the specified elements in a linked list");
+        System.out.println();
         linkTwo.getFirst();
+        System.out.println("get the first occurrence of the specified elements in a linked list: "+linkTwo);
+
+        System.out.println();
         linkTwo.getLast();
-        System.out.println(linkTwo);
+        System.out.println("get the last occurrence of the specified elements in a linked list: "+linkTwo);
     }
 }

@@ -1,9 +1,9 @@
-package list.arraylist;
+package list.arraylist.answer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ModArray {
+public class ArrayListThree {
     public void modifyingArrayElements() {
 //      3.Write a Java program to insert an element into the array list at the first position
 //      4.Write a Java program to retrieve an element (at a specified index) from a given array list.

@@ -1,11 +1,10 @@
-package list.arraylist;
+package list.arraylist.answer;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class ModArrayFor {
+public class ArrayListFour {
     public void modifyingArrayElementsFor() {
 
         Scanner sc = new Scanner(System.in);
