@@ -17,6 +17,7 @@ public class HashSetOne {
         family.add("GRANDFATHER");
         family.add("SON IN LAW");
         family.add("DAUGHTER IN LAW");
+        family.add("MOTHER IN LAW");
         family.add("AUNT");
         family.add("COULER");
         family.add("COUSIN");
