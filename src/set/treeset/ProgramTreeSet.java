@@ -6,7 +6,7 @@ import set.treeset.answer.TreeSetTwo;
 import java.util.Scanner;
 
 public class ProgramTreeSet {
-    public static void main(String[] args) {
+    public void treeSetProgram() {
         /*
         1. Write a Java program to create a new tree set, add some colors (string) and print out the tree set. Go to the editor
         2. Write a Java program to iterate through all elements in a tree set. Go to the editor
@@ -30,6 +30,7 @@ public class ProgramTreeSet {
         TreeSetOne treesetOne = new TreeSetOne();
         TreeSetTwo treeSetTwo = new TreeSetTwo();
 
+        System.out.println("TREESET===============================");
         System.out.println("Choose the desired option: ");
         System.out.println("1- Answer exercise 01,02,03,04 and 05");
         System.out.println("2- Answer exercise 06,07,08,09 and 10");

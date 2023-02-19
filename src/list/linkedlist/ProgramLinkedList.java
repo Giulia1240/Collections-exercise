@@ -5,7 +5,7 @@ import list.linkedlist.answer.*;
 import java.util.Scanner;
 
 public class ProgramLinkedList {
-    public static void main(String[] args) {
+    public void programLinkedList() {
     /*
     1. Write a Java program to append the specified element to the end of a linked list. Go to the editor
     2. Write a Java program to iterate through all elements in a linked list. Go to the editor
@@ -39,7 +39,7 @@ public class ProgramLinkedList {
         LinkedListThree listThree = new LinkedListThree();
         LinkedListFour listFour = new LinkedListFour();
         LinkedListFive listFive = new LinkedListFive();
-
+        System.out.println("LINKED LIST ========================");
         System.out.println("Choose the desired option: ");
         System.out.println("1- Answer exercise 01,02,03,04 and 05");
         System.out.println("2- Answer exercise 06,07,08,09 and 10");
@@ -65,7 +65,7 @@ public class ProgramLinkedList {
                 listFive.linkedFive();
                 break;
             default:
-                System.out.println("option invalidated");
+                System.out.println("invalid option");
                 break;
         }
     }

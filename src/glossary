@@ -1,0 +1,27 @@
+CLASSES ABSTRATAS=========================================================================
+Classes que não podem ser instanciadas,com objetivo o reuso e polimorfismo.
+METODOS ABSTRATOS=========================================================================
+Metodos que não possuem implementação e isto ocorre quando uma classe é generica demais para onter uma implementação
+
+INTEFARCES================================================================================
+É um conjunto de operações que uma classe deve implementar.
+SET=======================================================================================
+Set é uma interface de coleção que representa uma coleção de elementos únicos,
+sem nenhum tipo de ordem. Ele não permite elementos duplicados.
+Algumas implementações comuns incluem HashSet e TreeSet.
+
+HashSet> Não ordenado e execução mais rapida.Portanto, caso ausencia de metodos como
+hashcode e equals, sua saida será por meio de ponteiros.
+
+TreeSet> ordenado e execução mais lenta.Portanto, caso ausencia de metodos como
+hashcode,equals e compareTo, sua saida será por meio de ponteiros.
+
+MAP=======================================================================================
+É uma interface de coleção que representa uma associação de chave-valor. Cada elemento
+em um Map consiste em um par de objetos: uma chave única e seu valor correspondente.
+Algumas implementações comuns incluem HashMap e TreeMap.
+
+===========================================================================================
+OBS:Set é usado para armazenar elementos únicos sem uma ordem específica, enquanto Map é  |
+usado para armazenar pares chave-valor.                                                   |
+===========================================================================================

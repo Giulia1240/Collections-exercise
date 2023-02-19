@@ -4,8 +4,8 @@ import list.arraylist.answer.*;
 
 import java.util.Scanner;
 
-public class Program {
-    public static void main(String[] args) {
+public class ProgramArrayList {
+    public void programArrayList() {
     /*
     1. Write a Java program to create a new array list,// add some colors (string) and print out the collection.
     2.Write a Java program to iterate through all elements  in a array list.
@@ -39,7 +39,7 @@ public class Program {
         ArrayListFive modThree = new ArrayListFive();
         ArrayListFour modFor = new ArrayListFour();
 
-
+        System.out.println("ARRAYlIST=========================");
         System.out.println("Choose the desired option: ");
         System.out.println("1- Answer exercise 01");
         System.out.println("2- Answer exercise 02");
@@ -70,7 +70,7 @@ public class Program {
                 modFor.modifyingArrayElementsFor();
                 break;
             default:
-                System.out.println("option invalidated");
+                System.out.println("invalid option");
                 break;
         }
 

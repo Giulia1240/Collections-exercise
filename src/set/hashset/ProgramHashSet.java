@@ -6,7 +6,7 @@ import set.hashset.answer.HashSetTwo;
 import java.util.Scanner;
 
 public class ProgramHashSet {
-    public static void main(String[] args) {
+    public void programHashSet() {
         /*
         1. Write a Java program to append the specified element to the end of a hash set. Go to the editor
         2. Write a Java program to iterate through all elements in a hash list. Go to the editor
@@ -23,6 +23,7 @@ public class ProgramHashSet {
         HashSetOne hashOne = new HashSetOne();
         HashSetTwo hasTwo = new HashSetTwo();
 
+        System.out.println("HASHSET==============================");
         System.out.println("Choose the desired option: ");
         System.out.println("1- Answer exercise 01,02,03,04 and 05");
         System.out.println("2- Answer exercise 06,07,08,09 and 10");
